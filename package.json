@@ -1,0 +1,28 @@
+{
+  "name": "devserver",
+  "version": "0.0.0",
+  "description": "devserver =========",
+  "main": "lib/devserver",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/georgeyue/devserver"
+  },
+  "bin": {
+    "devserver": "./bin/devserver"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "author": "George Yue <theothergeorge@gmail.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/georgeyue/devserver/issues"
+  },
+  "dependencies": {
+    "hapi": "~7.1.0"
+  },
+  "private": true
+}
