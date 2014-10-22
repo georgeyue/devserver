@@ -4,5 +4,10 @@
 var path = require("path");
 var fs = require('fs');
 var lib = path.join(path.dirname(fs.realpathSync(__filename)), '../lib');
+var publicDir;
 
-require(lib+'/devserver.js').start();
+if (process.argv.length > 2) {
+  publicDir = path.resolve(process.argv[2]);
+}
+
+require(lib+'/devserver.js').start(publicDir);
