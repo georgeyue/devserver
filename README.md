@@ -6,3 +6,8 @@ Start a simple dev server with the following support
  * static file server
  * jsonp (not implemented)
  * mirror JS scripts (not implemented)
+
+
+## API
+
+### ```?delay=[ms]```
